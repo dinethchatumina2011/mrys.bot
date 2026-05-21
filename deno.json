@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-read --allow-write --allow-env --unstable-kv main.ts"
+  },
+  "imports": {
+    "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys@6.7.8"
+  }
+}
